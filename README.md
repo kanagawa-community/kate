@@ -67,7 +67,9 @@ curl -fsSL -o ~/.local/share/org.kde.syntax-highlighting/themes/kanagawa-dragon.
 curl -fsSL -o ~/.local/share/org.kde.syntax-highlighting/themes/kanagawa-lotus.theme https://raw.githubusercontent.com/kanagawa-community/kate/main/themes/kanagawa-lotus.theme
 ```
 
-You can also clone the repository and copy everything in `themes/`.
+Or clone the repository and run `./install.sh`. It installs all three variants,
+or only the ones you name, for example `./install.sh dragon lotus`. `./uninstall.sh`
+takes the same names and removes them.
 
 ## Usage
 
